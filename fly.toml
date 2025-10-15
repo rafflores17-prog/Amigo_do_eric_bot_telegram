@@ -1,11 +1,8 @@
-app = "meu-bot-telegram"
-primary_region = "gru"  # (região Brasil; pode trocar pra mia, ewr, etc)
-
+app = "amigo-do-eric-bot-telegram"  # pode deixar igual ao Fly.io
+primary_region = "gru"               # região Brasil
 [build]
   builder = "paketobuildpacks/builder:base"
-
 [env]
   PYTHONUNBUFFERED = "true"
-
 [processes]
   app = "python bot.py"
